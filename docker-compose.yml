@@ -1,0 +1,6 @@
+services:
+  about-me:
+    container_name: "about-me"
+    build: ./
+    ports:
+      - "80:5173"

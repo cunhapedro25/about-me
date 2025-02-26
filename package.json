@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx get-last-commit.ts && vite",
+    "dev": "tsx get-last-commit.ts && vite --host",
     "build": "tsx get-last-commit.ts && vue-tsc -b && vite build",
     "preview": "vite preview"
   },
