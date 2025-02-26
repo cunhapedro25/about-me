@@ -18,7 +18,7 @@ defineProps({
 
 <style scoped>
 .word {
-  @apply flex flex-wrap w-fit;
+  @apply flex w-fit;
   --i: 0;
   --speed: 0;
 

@@ -17,6 +17,6 @@ defineProps({
 
 <style scoped>
 .phrase{
-  @apply flex gap-1 flex-wrap w-fit;
+  @apply flex gap-1 w-fit;
 }
 </style>

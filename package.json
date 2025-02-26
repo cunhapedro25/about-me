@@ -4,14 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "dev": "tsx get-last-commit.ts && vite",
+    "build": "tsx get-last-commit.ts && vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "tsx": "^4.19.3",
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@types/node": "^22.13.5",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.20",
