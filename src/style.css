@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-all;
+}
+
+hr{
+  @apply border-white/20 my-2 w-16 border-2 rounded-full
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply text-2xl font-medium;
+}
+
+img {
+  @apply select-none;
+}
+
+.fade-in{
+  @apply animate-[fade_1s_ease-in-out]
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
